@@ -1,12 +1,11 @@
 function setup() {
   createCanvas(600, 600);
-
+  background(7, 12, 92);
 }
 
 
 
 function draw() {
-  background(7, 12, 92);
   // moon
   fill(255);
  noStroke();
