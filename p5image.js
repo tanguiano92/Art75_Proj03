@@ -1,5 +1,11 @@
 function setup() {
   createCanvas(600, 600);
+
+}
+
+
+
+function draw() {
   background(7, 12, 92);
   // moon
   fill(255);
@@ -61,10 +67,4 @@ function setup() {
  fill(225);
  noStroke();
  rect(290, 150, 10, 10);
-}
-
-
-
-function draw() {
-
   }
