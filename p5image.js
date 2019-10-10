@@ -1,70 +1,27 @@
 function setup() {
-  createCanvas(600, 600);
-   background(7, 12, 92);
+  createCanvas(500, 500);
+  background(0);
+
+  for (let i = 1; i < 10; i++){
+    //ellipse(i * 50, 50, i * 4);
+    //ellipse(i * 50, 100, i * 4);
+    //ellipse(i * 50, 150, i * 4);
+    //ellipse(i * 50, 200, i * 4);
+    //ellipse(i * 50, 250, i * 4)
+    //ellipse(i * 50, 300, i * 4);
+    //ellipse(i * 50, 350, i * 4);
+    //ellipse(i * 50, 400, i * 4);
+    //ellipse(i * 50, 450, i * 4);}
+
+for (let j = 1; j < 10; j++){
+  fill(0, 255, 150, 255 - j * 25);
+     ellipse(i * 50, j * 50, i * 4);}
 }
-
-
+}
 
 function draw() {
 
-   // moon
-   fill(255);
-  noStroke();
-  circle(350, 100, 100);
-
- // large hill
-  fill(3, 56, 2);
-  noStroke();
-  circle(500, 400, 700);
-
-  // medium hill
-  fill(16, 66, 7);
-  noStroke();
-  circle(100,500, 600);
-
-  // small hill
-  fill(19, 82, 7);
-  noStroke();
-  circle(400, 500, 500);
+  // draws loops over and over.
 
 
-  // tombstone 1 shine
-  fill(255);
-  noStroke();
-  circle(204, 250, 20);
-  fill(2255);
-  noStroke();
-  rect(194, 250, 20, 20);
-
-  // tombstone 1
-  fill(210);
-  noStroke();
-  circle(200, 250, 20);
-  fill(210);
-  noStroke();
-  rect(190, 250, 20, 20);
-
-  // tombstone 2 shine
-  fill(255);
-  noStroke();
-  circle(304, 350, 20);
-  fill(255);
-  noStroke();
-  rect(294, 350, 20, 20);
-
-  // tombstone 2
-  fill(210);
-  noStroke();
-  circle(300, 350, 20);
-  fill(210);
-  noStroke();
-  rect(290, 350, 20, 20);
-
-  // tombstone 3
-   fill(225);
-  noStroke();
-  circle(295, 150, 10);
-  fill(225);
-  noStroke();
-  rect(290, 150, 10, 10);
-  }
+}
