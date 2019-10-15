@@ -2,7 +2,7 @@ var img;
 
 function preload() {
 
-  img = loadImage("art-artistic-blue-775907.jpg");
+  img = loadImage("images/Hippie.jpg");
 }
 
 function setup() {
