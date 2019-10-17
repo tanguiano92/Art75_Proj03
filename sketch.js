@@ -2,7 +2,7 @@ var img;
 
 function preload() {
 
-  img = loadImage("images/joker.png");
+  img = loadImage("images/butterfly.png");
 }
 
 function setup() {
