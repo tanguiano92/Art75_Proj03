@@ -1,3 +1,10 @@
+var img;
+
+function preload() {
+
+  img = loadImage("images/joker.png");
+}
+
 function setup() {
   createCanvas(windowWidth, windowHeight);
   background(0)
