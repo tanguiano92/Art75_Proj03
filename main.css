@@ -3,3 +3,17 @@ body {
   background-size: cover;
   background-repeat: no-repeat;
 }
+
+a {
+color: darkblue;
+text-decoration: none;
+}
+
+a:hover {
+    color: hotpink;
+  }
+
+.link-two:hover {
+  color: red;
+  background-color: black;
+}
