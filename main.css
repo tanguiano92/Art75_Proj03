@@ -1,8 +1,13 @@
 body
 {
+  <style>
+  body{
   background-image: url(images/halloween.jpg);
-  background-repeat:;
-  background-size: cover;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 70%
+  }
+    </style>
 
 }
 section
