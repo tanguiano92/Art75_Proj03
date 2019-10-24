@@ -90,3 +90,6 @@ a:hover {
   color: black;
   background-color:red;
 }
+video {
+  margin-top: 50px;
+}
