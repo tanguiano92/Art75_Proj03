@@ -1,5 +1,10 @@
 body
 {
+<<<<<<< HEAD
+  background-image: url(images/halloween.jpg);
+  background-repeat:;
+  background-size: cover;
+=======
   <style>
   body{
   background-image: url(images/halloween.jpg);
@@ -8,6 +13,7 @@ body
     height: 70%
   }
     </style>
+>>>>>>> 24ffc8883e3cae0c93bff00c4d5a183a143cab19
 
 }
 section
@@ -23,6 +29,9 @@ section:before
 	position: absolute;
 	width: 100%;
 	height: 100%;
+	background: url(images/butterfly.jpg);
+	opacity: .6;
+	mix-blend-mode: hard-light;
 }
 section:hover:before
 {
