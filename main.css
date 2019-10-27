@@ -11,6 +11,7 @@ section
 	position: relative;
 	width: 100%;
 	height: 100vh;
+
 }
 section:before
 {
@@ -79,6 +80,7 @@ a {
   color: #590303;
   text-decoration: line-through;
   font-size: 20px;
+  font-style: oblique;
 }
 
 a:hover {
